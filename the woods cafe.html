@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Woods Cafe | Sitapura, Jaipur</title>
+    <link rel="stylesheet" href="style-cafe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="language-toggle">
+    <button id="langBtn" onclick="toggleLanguage()">हिंदी में देखें</button>
+</div>
+
+<header>
+    <div class="container">
+        <h1><span id="header-title">The Woods Cafe</span></h1>
+        <p id="header-subtitle">Cafe in Sitapura, Jaipur</p>
+        <div class="rating">
+            <span class="stars">⭐⭐⭐⭐⭐</span>
+            <span id="rating-text">4.8 (461 reviews)</span>
+        </div>
+        <div class="badge open-badge" id="open-badge">Open</div>
+    </div>
+</header>
+
+<section class="hero">
+    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&q=80" alt="The Woods Cafe">
+    <div class="hero-overlay">
+        <h2 id="hero-title">Cafe Near India Gate, Sitapura</h2>
+        <p id="hero-text">Coffee, quick bites and vegetarian options</p>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container">
+        <a href="https://wa.me/919509011222?text=Hi!%20I%20want%20to%20know%20about%20The%20Woods%20Cafe" class="btn btn-primary">
+            <span class="btn-icon">💬</span> <span id="whatsapp-btn">WhatsApp</span>
+        </a>
+        <a href="tel:+919509011222" class="btn btn-secondary">
+            <span class="btn-icon">📞</span> <span id="call-btn">Call</span>
+        </a>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container">
+        <h2 id="about-title">About The Woods Cafe</h2>
+        <p id="about-text">
+            A local cafe in Sitapura offering coffee, quick bites, vegetarian and vegan options.
+            Suitable for breakfast, brunch, lunch, dinner and dessert.
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <span class="feature-icon">🍽️</span>
+                <h3 id="feature1-title">Dine-In</h3>
+                <p id="feature1-text">Available</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">📦</span>
+                <h3 id="feature2-title">Takeaway</h3>
+                <p id="feature2-text">Available</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🛵</span>
+                <h3 id="feature3-title">Delivery</h3>
+                <p id="feature3-text">Available</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🪑</span>
+                <h3 id="feature4-title">Table Service</h3>
+                <p id="feature4-text">Available</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="menu">
+    <div class="container">
+        <h2 id="menu-title">Menu Highlights</h2>
+
+        <div class="menu-category">
+            <h3 id="menu-coffee-title">☕ Coffee</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><span id="item-hotcoffee">Hot Coffee</span></div>
+                <div class="menu-item"><span id="item-coldcoffee">Cold Coffee of the Day</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3 id="menu-food-title">🍽️ Food</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><span id="item-vegroll">Veg Roll</span></div>
+                <div class="menu-item"><span id="item-springroll">Spring Roll</span></div>
+                <div class="menu-item"><span id="item-chillipotato">Crispy Chilli Potato</span></div>
+                <div class="menu-item"><span id="item-paneerchilli">Kurkura Paneer Chilli</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3 id="menu-pizza-title">🍕 Pizza</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><span id="item-otcpizza">OTC Pizza</span></div>
+                <div class="menu-item"><span id="item-paneerpizza">Paneer Pizza Margherita</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3 id="menu-shakes-title">🥤 Shakes</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><span id="item-kitkatshake">KitKat Milkshake</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3 id="menu-burger-title">🍔 Burger</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><span id="item-cheeseburger">Cheese Burger</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="amenities">
+    <div class="container">
+        <h2 id="amenities-title">Facilities</h2>
+        <div class="amenities-grid">
+            <div class="amenity-item"><p id="amenity-wifi">Free Wi-Fi</p></div>
+            <div class="amenity-item"><p id="amenity-restroom">Restroom</p></div>
+            <div class="amenity-item"><p id="amenity-parking">Free Parking</p></div>
+            <div class="amenity-item"><p id="amenity-accessible">Wheelchair-Accessible Parking</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="container">
+        <h2 id="contact-title">Visit Us</h2>
+
+        <div class="contact-info">
+            <div class="info-item">
+                <h3 id="contact-address-title">Address</h3>
+                <p id="contact-address">
+                    India Gate, S-53, Tonk Road, RIICO Colony,
+                    Shatabdi Nagar, Sitapura Industrial Area,
+                    Sitapura, Jaipur – 302022
+                </p>
+            </div>
+
+            <div class="info-item">
+                <h3 id="contact-phone-title">Phone</h3>
+                <p><a href="tel:+919509011222">095090 11222</a></p>
+            </div>
+
+            <div class="info-item">
+                <h3 id="contact-hours-title">Hours</h3>
+                <p id="contact-hours">Open • Closes at 9:30 PM</p>
+            </div>
+        </div>
+
+        <a href="https://maps.app.goo.gl/Aaz771vMrSVTUKA59" target="_blank" class="btn btn-map">
+            <span id="map-btn-text">Locate on Map</span>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p id="footer-text">© 2025 The Woods Cafe, Sitapura</p>
+    </div>
+</footer>
+
+<script>
+let currentLang = 'en';
+
+const translations = {
+    en: {
+        langBtn: 'हिंदी में देखें',
+        'header-title': 'The Woods Cafe',
+        'header-subtitle': 'Cafe in Sitapura, Jaipur',
+        'rating-text': '4.8 (461 reviews)',
+        'open-badge': 'Open',
+        'hero-title': 'Cafe Near India Gate, Sitapura',
+        'hero-text': 'Coffee, quick bites and vegetarian options',
+        'whatsapp-btn': 'WhatsApp',
+        'call-btn': 'Call',
+        'about-title': 'About The Woods Cafe',
+        'about-text': 'A local cafe in Sitapura offering coffee, quick bites, vegetarian and vegan options. Suitable for breakfast, brunch, lunch, dinner and dessert.',
+        'feature1-title': 'Dine-In',
+        'feature1-text': 'Available',
+        'feature2-title': 'Takeaway',
+        'feature2-text': 'Available',
+        'feature3-title': 'Delivery',
+        'feature3-text': 'Available',
+        'feature4-title': 'Table Service',
+        'feature4-text': 'Available',
+        'menu-title': 'Menu Highlights',
+        'menu-coffee-title': '☕ Coffee',
+        'menu-food-title': '🍽️ Food',
+        'menu-pizza-title': '🍕 Pizza',
+        'menu-shakes-title': '🥤 Shakes',
+        'menu-burger-title': '🍔 Burger',
+        'item-hotcoffee': 'Hot Coffee',
+        'item-coldcoffee': 'Cold Coffee of the Day',
+        'item-vegroll': 'Veg Roll',
+        'item-springroll': 'Spring Roll',
+        'item-chillipotato': 'Crispy Chilli Potato',
+        'item-paneerchilli': 'Kurkura Paneer Chilli',
+        'item-otcpizza': 'OTC Pizza',
+        'item-paneerpizza': 'Paneer Pizza Margherita',
+        'item-kitkatshake': 'KitKat Milkshake',
+        'item-cheeseburger': 'Cheese Burger',
+        'amenities-title': 'Facilities',
+        'amenity-wifi': 'Free Wi-Fi',
+        'amenity-restroom': 'Restroom',
+        'amenity-parking': 'Free Parking',
+        'amenity-accessible': 'Wheelchair-Accessible Parking',
+        'contact-title': 'Visit Us',
+        'contact-address-title': 'Address',
+        'contact-phone-title': 'Phone',
+        'contact-hours-title': 'Hours',
+        'contact-hours': 'Open • Closes at 9:30 PM',
+        'map-btn-text': 'Locate on Map',
+        'footer-text': '© 2025 The Woods Cafe, Sitapura'
+    },
+    hi: {
+        langBtn: 'View in English',
+        'header-title': 'द वुड्स कैफ़े',
+        'header-subtitle': 'सीतापुरा, जयपुर में कैफे',
+        'rating-text': '4.8 (461 समीक्षाएं)',
+        'open-badge': 'खुला है',
+        'hero-title': 'इंडिया गेट के पास कैफे',
+        'hero-text': 'कॉफी, क्विक बाइट्स और शाकाहारी विकल्प',
+        'whatsapp-btn': 'WhatsApp',
+        'call-btn': 'कॉल करें',
+        'about-title': 'द वुड्स कैफ़े के बारे में',
+        'about-text': 'सीतापुरा में स्थित एक लोकल कैफे जो कॉफी, क्विक बाइट्स, शाकाहारी और वीगन विकल्प प्रदान करता है। नाश्ता, ब्रंच, लंच, डिनर और डेज़र्ट के लिए उपयुक्त।',
+        'feature1-title': 'डाइन-इन',
+        'feature1-text': 'उपलब्ध',
+        'feature2-title': 'टेकअवे',
+        'feature2-text': 'उपलब्ध',
+        'feature3-title': 'डिलीवरी',
+        'feature3-text': 'उपलब्ध',
+        'feature4-title': 'टेबल सर्विस',
+        'feature4-text': 'उपलब्ध',
+        'menu-title': 'मेनू हाइलाइट्स',
+        'menu-coffee-title': '☕ कॉफी',
+        'menu-food-title': '🍽️ भोजन',
+        'menu-pizza-title': '🍕 पिज़्ज़ा',
+        'menu-shakes-title': '🥤 शेक्स',
+        'menu-burger-title': '🍔 बर्गर',
+        'item-hotcoffee': 'हॉट कॉफी',
+        'item-coldcoffee': 'कोल्ड कॉफी (आज की)',
+        'item-vegroll': 'वेज रोल',
+        'item-springroll': 'स्प्रिंग रोल',
+        'item-chillipotato': 'क्रिस्पी चिली पोटैटो',
+        'item-paneerchilli': 'कुरकुरा पनीर चिली',
+        'item-otcpizza': 'ओटीसी पिज़्ज़ा',
+        'item-paneerpizza': 'पनीर पिज़्ज़ा मार्गेरिटा',
+        'item-kitkatshake': 'किटकैट मिल्कशेक',
+        'item-cheeseburger': 'चीज़ बर्गर',
+        'amenities-title': 'सुविधाएं',
+        'amenity-wifi': 'फ्री वाई-फाई',
+        'amenity-restroom': 'शौचालय',
+        'amenity-parking': 'फ्री पार्किंग',
+        'amenity-accessible': 'व्हीलचेयर-सुलभ पार्किंग',
+        'contact-title': 'हमसे मिलें',
+        'contact-address-title': 'पता',
+        'contact-phone-title': 'फ़ोन',
+        'contact-hours-title': 'समय',
+        'contact-hours': 'खुला है • रात 9:30 बजे बंद',
+        'map-btn-text': 'मैप पर देखें',
+        'footer-text': '© 2025 द वुड्स कैफ़े, सीतापुरा'
+    }
+};
+
+function toggleLanguage() {
+    currentLang = currentLang === 'en' ? 'hi' : 'en';
+    for (const key in translations[currentLang]) {
+        const el = document.getElementById(key);
+        if (el) el.textContent = translations[currentLang][key];
+    }
+}
+</script>
+
+</body>
+</html>
